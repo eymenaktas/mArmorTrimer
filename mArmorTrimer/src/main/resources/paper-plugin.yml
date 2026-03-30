@@ -1,0 +1,13 @@
+name: mArmorTrimer
+version: '${version}'
+main: me.maskedev.armortrimer.ArmorTrimer
+api-version: '1.21'
+author: MaskeDev
+folia-supported: true
+permissions:
+  armortrimer.use:
+    description: "Allows usage of the trim menu."
+    default: true
+  armortrimer.admin:
+    description: "Allows reloading the configuration."
+    default: op

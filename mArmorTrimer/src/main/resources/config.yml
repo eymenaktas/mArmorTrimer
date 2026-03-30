@@ -1,0 +1,72 @@
+# -------------------------------------------------------------
+# mArmorTrimer - Premium Hex & Gradient Edition
+# -------------------------------------------------------------
+
+gui:
+  # Başlık: Altın tonlarından beyaz/mavi tonlarına şık bir geçiş
+  title: "<gradient:#FFD700:#FFFACD:#00FBFF><bold>Armor Trimer"
+  size: 27
+  # Minecraft'ta GOLD_STAINED_GLASS_PANE yoktur, sarı olanı kullanıyoruz.
+  filler_material: "YELLOW_STAINED_GLASS_PANE"
+
+patterns:
+  sentry:
+    display-name: "<#FFD700>Sentry Şablonu"
+    icon: "SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE"
+  vex:
+    display-name: "<#FFD700>Vex Şablonu"
+    icon: "VEX_ARMOR_TRIM_SMITHING_TEMPLATE"
+  wild:
+    display-name: "<#FFD700>Wild Şablonu"
+    icon: "WILD_ARMOR_TRIM_SMITHING_TEMPLATE"
+  coast:
+    display-name: "<#FFD700>Coast Şablonu"
+    icon: "COAST_ARMOR_TRIM_SMITHING_TEMPLATE"
+  dune:
+    display-name: "<#FFD700>Dune Şablonu"
+    icon: "DUNE_ARMOR_TRIM_SMITHING_TEMPLATE"
+  wayfinder:
+    display-name: "<#FFD700>Wayfinder Şablonu"
+    icon: "WAY_FINDER_ARMOR_TRIM_SMITHING_TEMPLATE"
+  eye:
+    display-name: "<#FFD700>Eye Şablonu"
+    icon: "EYE_ARMOR_TRIM_SMITHING_TEMPLATE"
+
+materials:
+  gold:
+    display-name: "<#FFD700>Altın (Gold)"
+    icon: "GOLD_INGOT"
+  iron:
+    display-name: "<#F0F8FF>Demir (Iron)"
+    icon: "IRON_INGOT"
+  diamond:
+    display-name: "<#00FBFF>Elmas (Diamond)"
+    icon: "DIAMOND"
+  netherite:
+    display-name: "<#4B4B4B>Netherite"
+    icon: "NETHERITE_INGOT"
+  emerald:
+    display-name: "<#50C878>Zümrüt (Emerald)"
+    icon: "EMERALD"
+  amethyst:
+    display-name: "<#9966CC>Ametist"
+    icon: "AMETHYST_SHARD"
+
+messages:
+  no-armor: "<#FF4500>Lütfen elinizde bir zırh parçası tutun!"
+  no-perm: "<#B22222>Bu işlemi yapmak için yetkiniz yok."
+  # Başarılı işlem için yeşilden altına geçiş
+  applied: "<gradient:#50C878:#FFD700>Zırh süslemesi başarıyla uygulandı!"
+  removed: "<#DAA520>Zırh süslemesi başarıyla kaldırıldı."
+  # Butonlar için canlı geçişler
+  apply-button: "<gradient:#FFD700:#FFA500><bold>[ TRIMI BAS ]"
+  remove-button: "<gradient:#FF4500:#8B0000><bold>[ SİL ]"
+  preview-name: "<gradient:#FFD700:#FFFFFF><bold>Önizleme"
+  pattern-cycle-name: "<#FFD700><bold>Şablon Seç: <#FFFFFF>%pattern%"
+  material-cycle-name: "<#FFFFFF><bold>Maden Seç: <#FFD700>%material%"
+
+groups:
+  default:
+    priority: 1
+    allowed_patterns: ["*"]
+    allowed_materials: ["*"]
