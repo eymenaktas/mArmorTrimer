@@ -1,4 +1,4 @@
-![thumbnail](https://cdn.modrinth.com/data/cached_images/59d9a78d59eda81d0c8ccafaab62998b9cc22852_0.webp)
+# 🌟 mArmorTrimer (TrimPlus)
 
 ![Author](https://img.shields.io/badge/Author-MaskeDev-gold?style=for-the-badge)
 ![Version](https://img.shields.io/badge/Version-1.0.0-gold?style=for-the-badge)
@@ -48,7 +48,7 @@ The configuration is simple and powerful. You can customize the entire GUI, mess
 gui:
   title: "<gradient:#ff8cff:#8cffff><bold>Armor Trimer"
   size: 27
-  filler_material: "YELLOW_STAINED_GLASS_PANE"
+  filler_material: "GRAY_STAINED_GLASS_PANE"
 ```
 
 ---
